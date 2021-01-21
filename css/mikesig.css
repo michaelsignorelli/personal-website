@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.header-text {
+  font-size: 0.8em;
+}
+
+#nav {
+  display: none;
+}
 
 /*# sourceMappingURL=mikesig.css.map */

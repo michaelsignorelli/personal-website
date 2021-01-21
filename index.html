@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     
@@ -13,9 +16,100 @@
     
     <title>mikesig.com</title>
 </head>
+
 <body>
-    <h1>Hello.</h1>
-    <p>My name is Michael.</p>
+    <!-- your awesome webpage goes here -->
+    
+    <!-- navigation -->
+<div class="d-none"> <!-- sticky top needs to go here -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light border">
+        <div class="container">
+            <a class="navbar-brand" href="#">ms</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="label">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-content="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                </ul>
+                <div class="d-flex ms-auto fs-3">
+                    <a class="ms-3 text-secondary" href="#">
+                        <span class="bi bi-github"></span>
+                    </a>
+                    <a class="ms-3 text-secondary" href="#">
+                        <span class="bi bi-linkedin"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+    <!-- alt navigation -->
+<div class=""> <!-- need to remove to test sticky top -->
+    <header class="navbar navbar-light bg-light border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="#">Michael<span class="fw-bold">Signorelli</span></a>
+            <div class="d-flex flex-column ms-auto">
+                <a class="text-end header-text" href="mailto:#">michael@mikesig.com</a>
+                <a class="text-end header-text" href="tel:#">805 680 6788</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container border py-5 my-5">
+        <div class="row">
+            <div class="col">&nbsp;
+            </div>
+        </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="label">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-content="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Porfolio</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+    <!-- spacer -->
+    <div class="container border py-5 my-5">
+        <div class="row">
+            <div class="col" style="height: 2048px;">&nbsp;
+            </div>
+        </div>
+    </div>
     
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
