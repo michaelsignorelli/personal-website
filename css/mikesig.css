@@ -5,8 +5,10 @@
   font-size: 0.8em;
 }
 
-#nav {
-  display: none;
+.anchor:before {
+  height: 56px;
+  content: "";
+  display: block;
 }
 
 /*# sourceMappingURL=mikesig.css.map */

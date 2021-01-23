@@ -7,11 +7,16 @@
     font-size: 0.8em;
 }
 
-// debug
-#nav {
-    display: none;
+.jumbotron {
+//    padding: 5rem 0;
 }
 
-#alt-nav {
-//    display: none;
+.active {
+//    text-decoration: underline;
+}
+
+.anchor:before {
+    height: 56px;
+    content: "";
+    display: block;
 }
