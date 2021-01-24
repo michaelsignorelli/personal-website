@@ -17,14 +17,14 @@
     <title>mikesig.com</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navigation" data-bs-offset="0" tabindex="0" class="bg-light">
+<body data-bs-spy="scroll" data-bs-target="#navigation" data-bs-offset="0" tabindex="0">
     <!-- your awesome webpage goes here -->
     
     <!-- header -->
-    <!-- mobile incomplete --> <!-- css incomplete -->
     <header class="navbar navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Michael<span class="fw-bold">Signorelli</span></a>
+            <a class="navbar-brand d-none d-sm-block" href="#">Michael<span class="fw-bold">Signorelli</span></a>
+            <a class="navbar-brand d-sm-none" href="#">m<span class="fw-bold">s</span></a>
             <div class="d-flex flex-row ms-auto">
                 <div class="d-flex flex-column">
                     <a class="text-end header-text" href="mailto:#">michael@mikesig.com</a>
@@ -35,21 +35,30 @@
     </header>
     
     <!-- jumbotron -->
-    <!-- mobile incomplete --> <!-- css incomplete -->
-    <div class="container">
+    <div class="container d-sm-none">
         <div class="row">
-            <div class="col text-center pt-2 pt-sm-5 pb-5 jumbotron">
-                <h1 class="mx-auto d-none d-sm-inline">Hello. My name is Michael.</h1>
+            <div class="col text-center jumbotron">
+                <h2 class="mx-auto">Hi. My name is Michael.</h2>
+                <h3 class="mx-auto">I am a LabVIEW Developer.</h3>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jumbotron-sm -->
+    <div class="container d-none d-sm-block">
+        <div class="row">
+            <div class="col text-center jumbotron-sm">
+                <h2 class="mx-auto">Hello. My name is Michael.</h2>
                 <h3 class="mx-auto">I am a LabVIEW Developer.</h3>
             </div>
         </div>
     </div>
     
     <!-- navigation -->
-    <!-- mobile incomplete --> <!-- css incomplete -->
-    <div class="container sticky-top bg-info border-bottom border-2">
-        <nav class="nav navbar">
-            <ul class="nav nav-pills mx-auto" id="navigation">
+    <!-- css incomplete -->
+    <div class="container d-none d-sm-block sticky-top content-color">
+        <nav class="nav">
+            <ul class="nav mx-auto" id="navigation">
                 <li class="nav-item">
                     <a class="nav-link active" href="#about">
                         About
@@ -81,8 +90,8 @@
 
     <!-- body -->
     <!-- mobile incomplete --> <!-- css incomplete -->
-    <div class="bg-secondary">
-        <div class="container bg-info" style="height:2048px;">
+    <div class="bg-color">
+        <div class="container content-color" style="height:2048px;">
             <div class="row">
                 <div class="col">
                     <h4 class="anchor" id="about">About Me</h4>
