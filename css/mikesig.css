@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  background-color: white;
+}
+
+.bg-color {
+  background-color: grey;
+}
+
+.content-color {
+  background-color: lightblue;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+}
+
+.header-text {
+  font-size: 0.8em;
+  font-family: "Open Sans";
+}
 
 /*# sourceMappingURL=mikesig.css.map */
